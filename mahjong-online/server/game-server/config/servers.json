@@ -1,0 +1,30 @@
+{
+  "development":{
+    "connector": [
+      {"id":"connector-server-1", "host": "172.16.252.145","port":9002,"clientPort": 9001, "frontend": true}
+    ],
+    "gate":[
+      {"id": "gate-server-1", "host": "172.16.252.145", "clientHost": "172.16.252.145", "clientPort": 3001, "frontend": true}
+    ],
+    "dao":[
+      {"id":"dao-server-1","host":"172.16.252.145","port":5001}
+    ],
+    "channel":[
+      {"id":"channel-server-1","host":"172.16.252.145","port":5002}
+    ]
+  },
+  "production":{
+    "connector": [
+      {"id": "connector-server-1", "host": "172.16.252.145","port":9002,"clientPort": 9001, "frontend": true }
+    ],
+    "gate":[
+      {"id": "gate-server-1", "host": "172.16.252.145", "clientHost": "172.16.252.145", "clientPort": 3001, "frontend": true}
+    ],
+    "dao":[
+      {"id":"dao-server-1","host":"172.16.252.145","port":5001}
+    ],
+    "channel":[
+      {"id":"channel-server-1","host":"172.16.252.145","port":5002}
+    ]
+  }
+}
